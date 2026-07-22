@@ -1,0 +1,21 @@
+{
+  "input_folder": "./input_pdfs",
+  "output_folder": "./output",
+  "char_threshold": 50,
+  "mineru_timeout_seconds": 600,
+  "phone_placeholder": "[出于隐私保护，已删去]",
+  "email_placeholder": "[出于隐私保护，已删去]",
+  "separator_template": "\n========== 简历: {filename} ==========\n",
+  "llm_prompt_file": "llm_prompt.txt",
+  "watermark_strings": [
+  ],
+  "watermark_patterns": [
+      "[0-9A-Za-z_-]{20,}~~"
+  ],
+  "llm_api_config": {
+    "enabled": false,
+    "api_endpoint": "",
+    "api_key": "",
+    "model_name": ""
+  }
+}
